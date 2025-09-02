@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NUNYA ACADEMY</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <!-- Welcome Screen -->
+    <div id="welcome-screen">
+      <h3><u class="">NUNYA ACADEMY VACATION CLASS (SHS ONE I.C.T)</u></h3>
+      <br>
+      <br>
+              <b class="warning">Note: The test is timed. Each question takes 30 seconds to be answered. The system will automatically move to the next question if the timer reaches 0.</b>
+        <br>
+        <br>
+        <p>Enter your name and click on "Start Test" button to begin the test.
+      </p>
+      <input type="text" id="student-name" placeholder="Your Full Name">
+      <button id="start-btn">Start Test</button>
+    </div>
+
+    <!-- Quiz Box -->
+    <div id="quiz-box" class="hidden">
+      <h3><u class="warning">NUNYA ACADEMY VACATION CLASS (SHS ONE I.C.T) GRADED QUIZ.</u></h3>
+      <br>
+      <div class="timer-text">Time remaining: <span id="time">30</span> seconds</div>
+      <div class="timer-container">
+        <div class="timer-bar" id="timer-bar"></div>
+      </div>
+      <div id="question">Question text here</div>
+      <div id="options"></div>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <!-- Result Box -->
+    <div id="result-box" class="hidden">
+      <h2>End of Quiz</h2>
+      <p>You Scored: <span id="score"></span></p>
+      
+      <h3>Test Score Submitted Successfully</h3>
+      <form id="submit-form">
+        <input type="text" id="name-result" readonly>
+        <textarea id="message" rows="4" readonly></textarea>
+      </form>
+      <button><a href="">Clich here to access slides in pdf format</a></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
