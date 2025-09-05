@@ -1,104 +1,254 @@
    
     const questions = [
       {
-        question : "1. In writing a machine code for a CPU, binary instruction sets defined by the programmer operate on operands stored in storage components called...",
-        options: ["Stack", "Registers", "Control Unit(CU)", "Arithmetic Logic Unit(ALU)"],
-        answer: "Registers"
+        question: "1. Which category of software directly manages computer hardware and provides a platform for running applications?",
+        options: ["Application Software", "System Software", "Utility Software", "Middleware"],
+        answer: "System Software"
       },
       {
-        question: "2. A programmer defined 110111 instruction set as an 'ADDITION' operator for ARM x86 CPU, what will be the content of a register R3 after the result of addition operation on R1 with value 5 and R2 with value 24?. Thus R3= 110111 R1,R2.",
-        options: ["1111110", "11101", "110011", "100001"],
-        answer: "11101"
+        question: "2. Photoshop, Zoom, and WhatsApp are examples of which software category?",
+        options: ["System Software", "Application Software", "Programming Software", "Driver Software"],
+        answer: "Application Software"
       },
       {
-        question: "3. A C langauge programmer developed an application to take user input and write the content to a screen, which header file should he include in his program?",
-        options: ["stdio.h", "stdout.h", "stdio", "iostream"],
-        answer: "stdio.h"
+        question: "3. Which software category is often referred to as the 'Developer's Toolkit'?",
+        options: ["System Software", "Application Software", "Programming Software", "Middleware"],
+        answer: "Programming Software"
       },
       {
-        question: "4. Which of the follwoing is an exteneded version of C language?",
-        options: ["C#", "C++", "COBOL", "Python"],
-        answer: "C++"
+        question: "4. Antivirus programs and disk cleanup tools fall under which software category?",
+        options: ["System Software", "Utility Software", "Middleware", "Educational Software"],
+        answer: "Utility Software"
       },
       {
-        question: "5. C# pronouned 'C Sharp' is a Programming language developed by which Organization?",
-        options: ["IBM", "Google", "Microsoft", "Bell Labs"],
-        answer: "Microsoft"
+        question: "5. Which software category acts as a bridge between different software applications or systems?",
+        options: ["Driver Software", "Middleware", "System Software", "Programming Software"],
+        answer: "Middleware"
       },
       {
-        question: "6. What is the starting point of a program in C++?",
-        options: ["Start", "Static Void Main", "Main()", "main()"],
-        answer: "main()"
+        question: "6. What type of software allows the operating system to communicate with specific hardware devices?",
+        options: ["Middleware", "System Software", "Driver Software", "Utility Software"],
+        answer: "Driver Software"
       },
       {
-        question: "7. The .NET framework helps make C# program excutable in other operating system environments. True or False?",
-        options: ["True", "False", "Dont't know", "Neutral"],
-        answer: "True"
+        question: "7. Duolingo and Khan Academy are examples of which software category?",
+        options: ["Educational Software", "Application Software", "System Software", "Utility Software"],
+        answer: "Educational Software"
       },
       {
-        question: "8. Which of the following is a programming language designed to be used for making webpages interactive?",
-        options: ["Java", "C++", "Javascript", "C"],
-        answer: "Javascript"
+        question: "8. Which of the following is NOT an example of system software?",
+        options: ["Windows", "macOS", "Linux", "Microsoft Word"],
+        answer: "Microsoft Word"
       },
       {
-        question: "9. Programs written in machine language are",
-        options: ["CPU dependent", "CPU independent", "Can't tell", "written in English"],
-        answer: "CPU independent"
+        question: "9. Visual Studio and Eclipse are examples of tools in which software category?",
+        options: ["System Software", "Application Software", "Programming Software", "Middleware"],
+        answer: "Programming Software"
       },
       {
-        question: "10. In designing an AMD x64 CPU, A programmer defined 1111101 as a 'CUT' instruction set. As an assistant programmer, how do you move a value stored in register R4 with address 0x00 to Register R7 address 0x01 using machine langauge?",
-        options: [" R4,R7", "1111101 0x00, 0x01", "1111101 0x00 0x01", "1111101 1111101 0x00"],
-        answer: "1111101 R4,R7"
+        question: "10. Which software category is sometimes referred to as 'System Optimizers'?",
+        options: ["System Software", "Utility Software", "Middleware", "Driver Software"],
+        answer: "Utility Software"
       },
       {
-        question: "11. MOV R2,R4, JMP R7, DEC R6, EXIT 00.  is an example of a program written in.......?",
-        options: ["Machine language", "Python", "Assembly language", "C++"],
-        answer: "Assembly language"
+        question: "11. Apache Kafka and Microsoft BizTalk are examples of which software category?",
+        options: ["Middleware", "System Software", "Application Software", "Programming Software"],
+        answer: "Middleware"
       },
       {
-        question: "12. .... is a prefered language used in development of AI and Expert systems such as ChatGPT, Gemini, Deepseek, Copilot etc. ",
-        options: ["C#", "C", "COBOL", "Python"],
-        answer: "Python"
+        question: "12. Printer drivers and graphics card drivers belong to which software category?",
+        options: ["System Software", "Driver Software", "Utility Software", "Middleware"],
+        answer: "Driver Software"
       },
       {
-        question: "13. A switch statement excute a block of code if a condition is met, else .....",
-        options: ["Default block of code is excuted", "the program exits", "the compiler or the interpreter fails", "the program throws an error "],
-        answer: "Default block of code is excuted"
+        question: "13. Which software category is designed specifically for teaching and learning purposes?",
+        options: ["Application Software", "Educational Software", "System Software", "Utility Software"],
+        answer: "Educational Software"
       },
       {
-        question: "14. You need a program called...... to translate a C++ code to binary code for a CPU to understand ",
-        options: ["Interpreter", "Compiler", "Assembler", ".Net framework"],
-        answer: "Compiler"
+        question: "14. The analogy 'If hardware is the body of a computer, software is its mind and soul' best describes which relationship?",
+        options: ["Hardware vs. Software", "System Software vs. Application Software", "Programming Software vs. Utility Software", "Driver Software vs. Middleware"],
+        answer: "Hardware vs. Software"
       },
       {
-        question: "15. A C language was developed in which year?",
-        options: ["2010", "1995", "2001", "1972"],
-        answer: "1972"
+        question: "15. Which software category provides the core operating environment for a computer?",
+        options: ["Application Software", "System Software", "Programming Software", "Utility Software"],
+        answer: "System Software"
       },
       {
-        question: "16. In Programming, A boolean expression evaluates to..... based on a specific condition",
-        options: ["True", "False", "True or False", "None"],
-        answer: "True or False"
+        question: "16. Moodle is an example of which type of software?",
+        options: ["Learning Management System", "Programming Environment", "System Optimizer", "Middleware"],
+        answer: "Learning Management System"
       },
       {
-        question: "17. In python programming language, if A=10 and B=5. What will be the output of A**B?",
-        options: ["10000", "1000000", "100000", "110000"],
-        answer: "100000"
+        question: "17. Which software category would include programming languages like Python and Java?",
+        options: ["System Software", "Application Software", "Programming Software", "Educational Software"],
+        answer: "Programming Software"
       },
       {
-        question: "18. std::cout<<'Nunya Academy' is an example of a program statement written in .....",
-        options: ["Java", "Python", "COBOL", "C++"],
-        answer: "C++"
+        question: "18. File compression tools like WinZip or 7-Zip belong to which software category?",
+        options: ["System Software", "Utility Software", "Application Software", "Middleware"],
+        answer: "Utility Software"
       },
       {
-        question: "19. A programming language that uses neumonics to represent binary instruction that operate on registers is called.... ",
-        options: ["Assembly language", "Go language", "Rust", "Basic"],
-        answer: "Assembly language"
+        question: "19. Which software category is described as the 'Connective Tissue' between different applications?",
+        options: ["Driver Software", "Middleware", "System Software", "Utility Software"],
+        answer: "Middleware"
       },
       {
-        question: "20. Indentation is very crucial thing to observe in ..... Language.",
-        options: ["C", "C++", "COBOL", "Python"],
-        answer: "Python"
+        question: "20. What is the primary purpose of driver software?",
+        options: ["To optimize system performance", "To enable OS communication with hardware", "To provide educational content", "To connect different software applications"],
+        answer: "To enable OS communication with hardware"
+      },
+      {
+        question: "21. Which of the following is a mobile operating system that falls under the system software category?",
+        options: ["Photoshop", "Android", "Zoom", "Kaspersky"],
+        answer: "Android"
+      },
+      {
+        question: "22. IntelliJ IDE and Dr.Racket are tools used in which software category?",
+        options: ["System Software", "Application Software", "Programming Software", "Educational Software"],
+        answer: "Programming Software"
+      },
+      {
+        question: "23. Which software category would include tools like McAfee and Kaspersky?",
+        options: ["System Software", "Utility Software", "Application Software", "Middleware"],
+        answer: "Utility Software"
+      },
+      {
+        question: "24. What is the main characteristic that distinguishes application software from system software?",
+        options: ["Application software is intangible", "Application software performs specific user tasks", "Application software manages hardware", "Application software provides a platform for other software"],
+        answer: "Application software performs specific user tasks"
+      },
+      {
+        question: "25. Which software category is essential for creating other software applications?",
+        options: ["System Software", "Application Software", "Programming Software", "Utility Software"],
+        answer: "Programming Software"
+      },
+      {
+        question: "26. What is the primary function of utility software?",
+        options: ["To manage hardware resources", "To perform specific user tasks", "To optimize, maintain, and protect the system", "To enable communication between applications"],
+        answer: "To optimize, maintain, and protect the system"
+      },
+      {
+        question: "27. Which software category would Microsoft Excel belong to?",
+        options: ["System Software", "Application Software", "Programming Software", "Utility Software"],
+        answer: "Application Software"
+      },
+      {
+        question: "28. What role does middleware play in complex systems?",
+        options: ["It manages hardware resources", "It performs specific user tasks", "It allows different systems to work together seamlessly", "It optimizes system performance"],
+        answer: "It allows different systems to work together seamlessly"
+      },
+      {
+        question: "29. Which of the following is NOT an example of utility software?",
+        options: ["Antivirus Software", "Disk Cleanup Tools", "File Compression Tools", "Apache Kafka"],
+        answer: "Apache Kafka"
+      },
+      {
+        question: "30. What is the key difference between system software and application software?",
+        options: ["System software is tangible while application software is intangible", "System software performs specific tasks while application software provides a platform", "System software manages hardware while application software serves user needs", "System software is more expensive than application software"],
+        answer: "System software manages hardware while application software serves user needs"
+      },
+      {
+        question: "31. Which software category is described as 'the mind and soul' of a computer in the analogy?",
+        options: ["Hardware", "System Software", "All Software", "Application Software"],
+        answer: "All Software"
+      },
+      {
+        question: "32. What is a common characteristic of all software types?",
+        options: ["They are all tangible", "They all directly interact with hardware", "They are all sets of instructions or data", "They all perform specific user tasks"],
+        answer: "They are all sets of instructions or data"
+      },
+      {
+        question: "33. Which software category would include programming languages and development environments?",
+        options: ["System Software", "Application Software", "Programming Software", "Educational Software"],
+        answer: "Programming Software"
+      },
+      {
+        question: "34. What is the primary purpose of educational software?",
+        options: ["To manage computer resources", "To facilitate teaching and learning", "To optimize system performance", "To connect different applications"],
+        answer: "To facilitate teaching and learning"
+      },
+      {
+        question: "35. Which of the following is an example of middleware?",
+        options: ["Windows", "Microsoft BizTalk", "McAfee", "Duolingo"],
+        answer: "Microsoft BizTalk"
+      },
+      {
+        question: "36. What is the relationship between system software and application software?",
+        options: ["Application software provides a platform for system software", "System software runs on top of application software", "Application software requires system software to function", "They are independent and don't interact with each other"],
+        answer: "Application software requires system software to function"
+      },
+      {
+        question: "37. Which software category is specifically designed to make learning interactive and accessible?",
+        options: ["System Software", "Application Software", "Educational Software", "Programming Software"],
+        answer: "Educational Software"
+      },
+      {
+        question: "38. What is the role of driver software in the computer ecosystem?",
+        options: ["To translate between OS and hardware components", "To optimize system performance", "To provide educational content", "To connect different software applications"],
+        answer: "To translate between OS and hardware components"
+      },
+      {
+        question: "39. Which of the following is a key characteristic of utility software?",
+        options: ["It focuses on infrastructure and performance", "It performs specific user tasks", "It provides a platform for other software", "It connects different applications"],
+        answer: "It focuses on infrastructure and performance"
+      },
+      {
+        question: "40. What distinguishes programming software from other categories?",
+        options: ["It is used to create other software", "It manages hardware resources", "It performs specific user tasks", "It connects different applications"],
+        answer: "It is used to create other software"
+      },
+      {
+        question: "41. Which software category would include real-time data streaming tools?",
+        options: ["System Software", "Application Software", "Middleware", "Utility Software"],
+        answer: "Middleware"
+      },
+      {
+        question: "42. What is the common purpose of all application software?",
+        options: ["To manage hardware resources", "To help users perform specific tasks", "To optimize system performance", "To create other software"],
+        answer: "To help users perform specific tasks"
+      },
+      {
+        question: "43. Which software category is essential for running application software?",
+        options: ["Programming Software", "System Software", "Utility Software", "Middleware"],
+        answer: "System Software"
+      },
+      {
+        question: "44. What is the primary function of system software?",
+        options: ["To perform specific user tasks", "To manage hardware and provide a platform for applications", "To optimize system performance", "To facilitate learning"],
+        answer: "To manage hardware and provide a platform for applications"
+      },
+      {
+        question: "45. Which of the following is NOT a characteristic of software in general?",
+        options: ["It is intangible", "It consists of instructions and data", "You can physically touch it", "It enables hardware to perform tasks"],
+        answer: "You can physically touch it"
+      },
+      {
+        question: "46. What is the relationship between programming software and application software?",
+        options: ["Programming software is used to create application software", "Application software is used to create programming software", "They are the same category", "They don't interact with each other"],
+        answer: "Programming software is used to create application software"
+      },
+      {
+        question: "47. Which software category would business process integration tools belong to?",
+        options: ["System Software", "Application Software", "Middleware", "Utility Software"],
+        answer: "Middleware"
+      },
+      {
+        question: "48. What is a key characteristic of educational software?",
+        options: ["It manages hardware resources", "It focuses on infrastructure and performance", "It is designed for instruction and education", "It translates between OS and hardware"],
+        answer: "It is designed for instruction and education"
+      },
+      {
+        question: "49. Which software category is described as the 'Hardware Translator'?",
+        options: ["System Software", "Application Software", "Driver Software", "Middleware"],
+        answer: "Driver Software"
+      },
+      {
+        question: "50. How do all software categories work together in a computer system?",
+        options: ["They work independently without interaction", "They compete for system resources", "They form a functional ecosystem where each category has a specific role", "Only system software is essential; others are optional"],
+        answer: "They form a functional ecosystem where each category has a specific role"
       }
     ];
 
@@ -237,4 +387,5 @@
       window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       
       alert("Test Score submitted succesffully");
+
     })
