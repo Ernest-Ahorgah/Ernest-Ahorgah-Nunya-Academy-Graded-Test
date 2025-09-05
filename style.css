@@ -127,7 +127,7 @@
       background: #2c2c3f;
       color: white;
     }
-    .download {
+    #download {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:none;
@@ -160,6 +160,7 @@
       
 
     }
+
 
 
 
