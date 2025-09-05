@@ -127,19 +127,17 @@
       background: #2c2c3f;
       color: white;
     }
-    .warning{
+    .download {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:none;
     font-weight: bold;
     color: #f7f7f7;
       }
-#download {
-text-decoration: none;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-weight: bold;
-color: #c7e427;
-}
+.warning{
+        font-style: italic;
+        color: #c7e427;
+      }
 
     /* Welcome screen */
     #welcome-screen {
@@ -162,6 +160,7 @@ color: #c7e427;
       
 
     }
+
 
 
 
