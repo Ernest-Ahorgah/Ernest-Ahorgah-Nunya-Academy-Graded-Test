@@ -131,6 +131,9 @@
         font-style: italic;
         color: #c7e427;
       }
+#download {
+    
+}
 
     /* Welcome screen */
     #welcome-screen {
@@ -151,4 +154,5 @@
         font-size: 0.95rem;
       }
       
+
     }
